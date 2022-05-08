@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<d:CustomContentPage
+    x:Class="Game.Forms.UI.Views.MainView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="clr-namespace:Game.Forms.Base.Views;assembly=Game.Forms.Base"
+    xmlns:resources="clr-namespace:Game.Localization;assembly=Game.Localization"
+    xmlns:vm="clr-namespace:Game.Core.ViewModels;assembly=Game.Core"
+    Title="Main Game Page"
+    x:TypeArguments="vm:MainViewModel">
+    <StackLayout>
+        <Label>Hello World! Welcome to new game on Xamarin!</Label>
+    </StackLayout>
+</d:CustomContentPage>
